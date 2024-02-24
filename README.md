@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Streamline Task: Take Control of Your Day
+
+## Description
+
+Streamline Task is your comprehensive task management solution built with cutting-edge technologies: Next.js, Prisma, MongoDB Atlas, Mongoose, Node.js, Clerk authentication, Axios, and Moment.js and TailWind CSS . Achieve effortless organization, enhanced productivity, and streamlined workflows to conquer your to-do list and empower yourself for success!
+
+## Key Features
+- Intuitive task creation and management: Effortlessly add and prioritize tasks.
+- Visualize your progress: Gain clarity with clear task overviews and deadlines.
+- Prioritization tools: Focus on what matters most with flexible prioritization options.
+- Seamless completion tracking: Stay motivated and on track by monitoring your progress.
+
+- Clerk authentication: Securely manage user access and permissions.
+- Axios for efficient data fetching: Interact with external APIs seamlessly.
+- Precise time management with Moment.js: Simplify date and time manipulations for accurate task scheduling.
+
+**Streamline Task: Your one-stop shop for a more productive and organized you.**
 
 ## Getting Started
 
-First, run the development server:
+Clone the repository:
+
+```bash
+git clone https://github.com/Alok-112/Task-Management-App.git
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Configure environment variables: Set up necessary environment variables (e.g., database connection details).
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Access the application: Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
+- Frontend: Next.js, Tailwind CSS
+- Backend: Node.js
+- Database: MongoDB Atlas thorugh Prisma
+- Authentication: Clerk
+- Http Client: Axios
+- Date/Time Mangement: Moment.js
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Additional Notes
+This project utilizes:
 
-## Learn More
+- Next.js for server-side rendering and static site generation, ensuring a performant and user-friendly experience.
+- Prisma as an ORM, simplifying interactions with your MongoDB Atlas database.
+- Mongoose for an object-oriented modeling layer for data manipulation within MongoDB.
+- Node.js as the backend runtime environment, powering the application's server-side logic.
+- Clerk authentication for a secure and user-friendly solution for managing user accounts.
+- Axios for the efficient communication with external APIs for data retrieval and manipulation.
+- Moment.js for advanced date and time functionalities for precise task scheduling and management.
 
-To learn more about Next.js, take a look at the following resources:
+**Streamline Task empowers you to take control of your day, boost your productivity, and achieve your goals with ease.**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
